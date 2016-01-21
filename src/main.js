@@ -3,8 +3,8 @@
 const http = require('http')
 
 http.createServer((request, response) => {
-  response.writeHead(200, {'Content-Type': 'text/json'})
-  response.end('Hello World\n')
+  response.writeHead(200, {'Content-Type': 'application/json'})
+  response.end('{"hello": "world"}\n')
   console.log(request)
 }).listen(80)
 
