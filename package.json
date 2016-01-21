@@ -10,5 +10,10 @@
     "http"
   ],
   "author": "Caleb Thorsteinson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "gulp": "^3.9.0",
+    "gulp-standard": "^5.2.2"
+  }
 }
