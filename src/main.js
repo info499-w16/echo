@@ -13,7 +13,7 @@ function timeLog (msg) {
 http.createServer((request, response) => {
   response.writeHead(200, {'Content-Type': 'application/json'})
   response.end('{"hello": "world"}\n')
-  timeLog.log('Served Request')
+  timeLog('Served Request')
 }).listen(80)
 
 timeLog('Echo listening on http://localhost')
